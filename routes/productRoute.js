@@ -22,7 +22,7 @@ router.post('/api/createProduct', async (req, res) => {
 
 
 // GET method to get the product
-router.get('/api/getProduct', async (req, res) => {
+router.get('/', async (req, res) => {
     try {
         const data = await ProductItem.find();
         console.log('Product fetched');
