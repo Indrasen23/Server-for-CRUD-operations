@@ -1,3 +1,6 @@
+This repo contains basic code template of how to make a server then connect it to the database send data to database and perform several operations on the data e.g. CRUD using the routes.
+
+
 Routes for CRUD operations are 
 
 GET PRODUCTS -> localhost:5000/api/getProduct
