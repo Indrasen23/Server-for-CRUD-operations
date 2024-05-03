@@ -15,9 +15,9 @@ const port = process.env.PORT_VAL || 3000;
 app.use(bodyParser.json())
 
 // Your routes and other middleware here
-// app.get('/', (req, res) => {
-//     res.send('Welcome to my clothes website...');
-// })
+app.get('/', (req, res) => {
+    res.send('Welcome to my clothes website...');
+})
 
 app.use('/', productRoute);
 
